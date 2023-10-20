@@ -1,0 +1,44 @@
+.border-left{
+    border-left: solid 1px #b3b2b2;
+}
+
+.border-content{
+    border: 1px solid #b3b2b2;
+    border-radius: 5px;
+}
+
+.resultSearchContent{
+    background: #f7f7f7; border: 1px solid green;
+    position: absolute;
+    width: 100%;
+    top: 55px;
+    left: 0;
+    z-index: 9;
+    display: none;
+}
+
+.showMailLog{
+    cursor: pointer;
+}
+
+.showMailLog:hover{
+    background: rgba(128, 128, 128, 0.1);
+}
+
+
+.comment-status-new{
+    color: #fff;
+    background: #0c63e4;
+    padding: 3px 5px;
+}
+
+.comment-status-published{
+    color: #fff;
+    background: green;
+    padding: 3px 5px;
+}
+.comment-status-cancelled{
+    color: #fff;
+    background: red;
+    padding: 3px 5px;
+}
